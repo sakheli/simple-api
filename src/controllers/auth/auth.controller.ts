@@ -45,7 +45,7 @@ export const singIn = async (req: Request, res: Response) => {
         { id: selectedUser._id, email },
         process.env.JWT_TOKEN,
         {
-        expiresIn: process.env.JWT_EXPIRY,
+            expiresIn: process.env.JWT_EXPIRY,
         }
     );
     
