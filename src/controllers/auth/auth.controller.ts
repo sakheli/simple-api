@@ -1,5 +1,5 @@
 import { Request, Response } from 'express';
-import userSchema from 'src/schema/user.schema';
+import userSchema from '../../schema/user.schema';
 import mongoose from 'mongoose';
 const bcrypt = require('bcrypt');
 const jwt = require('jsonwebtoken');

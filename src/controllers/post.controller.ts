@@ -1,5 +1,5 @@
 import { Request, Response } from 'express';
-import postSchema from 'src/schema/post.schema';
+import postSchema from '../schema/post.schema';
 import mongoose from 'mongoose';
 
 
